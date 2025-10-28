@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kealan Thal | ICT & Game Design Portfolio</title>
+    <!-- CRUCIAL: This tag prevents search engines from indexing the page if hosted on a subfolder --><meta name="robots" content="noindex"> 
+    <!-- Load Tailwind CSS --><script src="https://cdn.tailwindcss.com"></script>
+    <!-- Use Inter font --><style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f7f9; /* Light contrast background for main content */
+        }
+        /* Custom card style for projects */
+        .project-card {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            background-color: white;
+            border: 1px solid #e5e7eb;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Header & Profile Section (Dark Grey Background) --><header class="bg-gray-800 text-white p-8 md:p-12 shadow-lg">
+        <div class="max-w-6xl mx-auto">
+            <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight mb-2">Kealan Thal</h1>
+            <h2 class="text-xl md:text-2xl font-light text-red-400 mb-4">
+                ICT Student | Aspiring Gameplay & Tools Developer
+            </h2>
+            <p class="text-gray-300 max-w-3xl">
+                Fontys Software Engineering & Game Design student seeking an internship at a game studio. Proven ability to translate complex logic into functional systems using **Unity (C#)**, coupled with strong team collaboration and stakeholder management skills.
+            </p>
+            <div class="mt-6">
+                <a href="#projects" class="inline-block bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-lg transition duration-200">
+                    View Key Projects ↓
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Technical Skills Section (Contrast Dark Grey) --><section class="py-12 bg-gray-700">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 class="text-3xl font-bold mb-8 text-white text-center">My Technical Toolkit</h3>
+            <div class="flex flex-wrap justify-center gap-4">
+                <!-- Primary Skills (Red Accent) --><span class="bg-red-600 text-white font-semibold px-4 py-2 rounded-full shadow-md">Unity 3D (C#)</span>
+                <span class="bg-red-600 text-white font-semibold px-4 py-2 rounded-full shadow-md">C#</span>
+                <span class="bg-red-600 text-white font-semibold px-4 py-2 rounded-full shadow-md">Version Control (Git)</span>
+                
+                <!-- Secondary Skills (Dark Grey/Black) --><span class="bg-gray-900 text-white font-semibold px-4 py-2 rounded-full shadow-md">Agile/Scrum</span>
+                <span class="bg-gray-900 text-white font-semibold px-4 py-2 rounded-full shadow-md">OOP & Data Structures</span>
+                <span class="bg-gray-900 text-white font-semibold px-4 py-2 rounded-full shadow-md">SQL/Database Management</span>
+                <span class="bg-gray-900 text-white font-semibold px-4 py-2 rounded-full shadow-md">Level & Sound Design Focus</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section --><section id="projects" class="py-16">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 class="text-4xl font-extrabold mb-12 text-gray-900 text-center">Featured Projects</h3>
+
+            <!-- 1. Duo Game Project (Work-In-Progress) --><div class="project-card mb-12 p-6 rounded-xl shadow-lg">
+                <h4 class="text-3xl font-bold mb-3 text-red-600">1. Duo Project: Voice From Below (Thriller Adventure Game)</h4>
+                <p class="text-sm font-semibold text-gray-500 mb-4">Focus: **Level Design, Interactable Logic, Environmental Storytelling** | Engine: Unity (C#)</p>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <!-- Embedded YouTube Video (Uses external URL) --><div class="relative w-full" style="padding-top: 56.25%;"> <!-- 16:9 Aspect Ratio --><iframe 
+                                class="absolute top-0 left-0 w-full h-full rounded-lg shadow-md" 
+                                src="https://www.youtube.com/embed/mk8-HH13XOs" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <p class="text-gray-600 italic mt-4">This collaborative project showcases specialized skills in creating compelling player environments and scripting gameplay immersion for the thriller genre.</p>
+                    </div>
+                    <div>
+                        <p class="mb-4">**My Specific Role & Technical Contributions:**</p>
+                        <ul class="list-disc list-inside space-y-2 text-gray-700">
+                            <li>**Level Design:** Created detailed **sketches and design plans** before building, **texturing**, and lighting the final levels in Unity.</li>
+                            <li>**Gameplay Scripting:** Implemented **C# logic** for all core level interactions, including making items **interactable** and scripting seamless **level transfer** mechanics.</li>
+                            <li>**Future Focus:** Preparing to implement **Sound Design** (Audio Mixer setup) and **Cinematics** (Unity Timeline) to complete the player experience.</li>
+                            <li>**Collaboration:** Managed feature integration and version control using **GitHub**.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. Stakeholder ICT Project (Professionalism) --><div class="project-card mb-12 p-6 rounded-xl shadow-lg">
+                <h4 class="text-3xl font-bold mb-3 text-red-600">2. Professional Project: Driving School Lesson Planner (Interactive Calendar)</h4>
+                <p class="text-sm font-semibold text-gray-500 mb-4">Focus: **Scheduling Logic, Full-Stack Development, Cloud DevOps** | Tech: **C#, JavaScript, SQL, Docker, Google Cloud/Firebase**</p>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="grid grid-cols-1 gap-4"> <!-- This now contains two images stacked --><!-- Image 1: Student Dashboard -->
+                        <img src="images/planner_student_view.png" alt="Driving School Lesson Planner - Student Dashboard" class="w-full h-auto object-cover rounded-lg shadow-md">
+                        <!-- Image 2: Admin Panel -->
+                        <img src="images/planner_admin_panel.png" alt="Driving School Lesson Planner - Admin Panel" class="w-full h-auto object-cover rounded-lg shadow-md">
+                        
+                        <p class="text-gray-600 italic mt-2 col-span-1">Developed as a solo, full-stack solution for a real stakeholder, demonstrating end-to-end development, secure deployment, and professional requirements management.</p>
+                    </div>
+                    <div>
+                        <p class="mb-4">**Key Features & Technical Implementation (Solo Effort):**</p>
+                        <ul class="list-disc list-inside space-y-2 text-gray-700">
+                            <li>**Interactive Calendar Logic:** Implemented **C# scheduling algorithms** that enable **instructors to set availability** and restrict students to booking slots of **1-2 hours** within that window.</li>
+                            <li>**User Authentication & Roles:** Developed a secure system to distinguish calendar permissions and functionalities between **student** and **instructor** users.</li>
+                            <li>**Real-Time Data Sync:** Used **JavaScript** on the front-end to communicate with the **RESTful C# API**, ensuring the SQL database is updated instantly when lessons are booked or changed.</li>
+                            <li>**CI/CD Pipeline:** Deployed the containerized application using **Docker** and managed continuous delivery on **Google Cloud/Firebase**.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. Board Game (Design Thinking) - UPDATED --><div class="project-card p-6 rounded-xl shadow-lg">
+                <h4 class="text-3xl font-bold mb-3 text-red-600">3. Systems Design: Wizards War (Last Standing Card Duels)</h4>
+                <p class="text-sm font-semibold text-gray-500 mb-4">Focus: **Dynamic Risk/Reward Systems, Ruleset Development, Summon Logic**</p>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                         <!-- Image for Board Game Setup -->
+                        <img src="images/wizards_war_setup.jpg" alt="Wizards War game setup with playmat and components" class="w-full h-auto object-cover rounded-lg shadow-md">
+                        <p class="text-gray-600 italic mt-4">This project demonstrates a focus on complex ruleset creation, balancing player risk, and creating compelling combat mechanics, a core skill for any systems designer.</p>
+                    </div>
+                    <div>
+                        <p class="mb-4">**Design Process & Core Mechanics:**</p>
+                        <ul class="list-disc list-inside space-y-2 text-gray-700">
+                            <li>Created a full **Ruleset and Core Loop** for a 2-4 player competitive duel focused on being the last wizard standing.</li>
+                            <li>Designed a **Dynamic Risk/Reward System** where miss chance is tracked per spell school, forcing players to diversify their casting strategy or risk failure.</li>
+                            <li>Developed complex **Summon Phase Logic** requiring a three-turn march sequence (Cast, Ready, Attack) to introduce strategic movement and delay.</li>
+                            <li>Incorporated **Reactionary Spells** and conditional blocking rules to ensure high player interaction and non-turn-based decision-making.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+    <!-- Footer (Dark Grey Background) --><footer class="bg-gray-800 text-white py-8 mt-16">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-400">
+            <p>Ready for an Internship | Kealan Thal | Fontys ICT</p>
+            <p class="text-sm mt-2">Contact: kealanthal29@gmail.com | Phone: 0611188619</p>
+        </div>
+    </footer>
+
+</body>
+</html>
